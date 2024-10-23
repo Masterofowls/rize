@@ -1,0 +1,36 @@
+/* SideBar.css */
+.sidebar {
+  width: 250px;
+  background: linear-gradient(to bottom, #388e3c, #1b5e20);
+  color: white;
+  padding: 20px;
+  height: calc(100vh - 120px); /* Full height minus header and footer */
+  position: sticky;
+  top: 60px;
+  flex-shrink: 0;
+  box-shadow: 4px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar-button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #66bb6a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.sidebar-button:hover {
+  background: #2e7d32;
+  transform: scale(1.05);
+}
+
+.sidebar-icon {
+  margin-right: 10px;
+}

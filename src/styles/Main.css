@@ -1,0 +1,13 @@
+/* Main.css */
+.main-content {
+  padding: 20px;
+  flex-grow: 1;
+  width: calc (100% - 250px);
+  background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+  position: relative;
+}
+

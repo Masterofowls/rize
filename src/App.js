@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './styles/App.css';
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
+import SideBar from './components/SideBar.jsx';
+import Main from './components/Main.jsx';
+import { useState } from 'react';
 
 function App() {
+  const [currentSection, setCurrentSection] = useState('About');
+
+  const handleSectionChange = (section) => {
+    setCurrentSection(section);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <Header />
+      <div className="content-container">
+        <SideBar onSelectSection={handleSectionChange} />
+        <Main currentSection={currentSection} />
+      </div>
+      <Footer />
     </div>
   );
 }
