@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/rize/static/css/main.07eaa0bd.css",
+    "main.js": "/rize/static/js/main.92451554.js",
+    "static/js/453.b9884a75.chunk.js": "/rize/static/js/453.b9884a75.chunk.js",
+    "static/media/4.png": "/rize/static/media/4.5a7e5f8e16d843108c43.png",
+    "static/media/3.png": "/rize/static/media/3.db7cb228f9c2cffa52a8.png",
+    "static/media/1.png": "/rize/static/media/1.1ba84f0de1bb325a1ec2.png",
+    "index.html": "/rize/index.html",
+    "main.07eaa0bd.css.map": "/rize/static/css/main.07eaa0bd.css.map",
+    "main.92451554.js.map": "/rize/static/js/main.92451554.js.map",
+    "453.b9884a75.chunk.js.map": "/rize/static/js/453.b9884a75.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07eaa0bd.css",
+    "static/js/main.92451554.js"
+  ]
+}
